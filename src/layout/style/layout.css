@@ -1,0 +1,29 @@
+.top-container {
+    display: flex; 
+   box-sizing: border-box;
+   margin: 0em;
+   padding: 0em;
+  width: 79em;
+   flex: 1;
+   
+
+    
+   
+  }
+
+  
+  
+  body {
+   
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+
+
+  body::-webkit-scrollbar {
+    display: none;
+  }
+ 
+  .body {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+  }

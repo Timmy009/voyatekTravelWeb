@@ -1,0 +1,116 @@
+.travel-options-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px;
+    background-color: rgb(238, 238, 247);
+  }
+  
+  .trip-type-selector {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .trip-type-button:first-child {
+    margin-left: 17em;
+  }
+  .trip-type-button {
+    margin-left: 4em;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 247);
+    
+    color: black;
+  }
+  
+  .trip-type-button.active {
+    border-bottom: rgb(72, 72, 149); 
+    border-left: 2em;
+    border-right: 2em;
+    
+  }
+  
+  .location-date-travelers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  .location-inputs input,
+  .date-inputs,
+  .travelers-input {
+    flex: 1;
+    margin-bottom: 20px;
+  }
+  
+  .location-inputs input,
+  .date-inputs span {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .date-inputs {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .date-input span {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  
+  .travelers-input input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .save-button {
+    background-color: #4285f4; 
+    color: #fff;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 7em;
+    margin-left: 25em;
+  }
+  
+
+  
+
+.bus-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px; /* Adjust margin as needed */
+  background-color: F1F7FF;
+  
+}
+
+.bus {
+  flex: 1;
+  padding: 10px;
+  background-color: white;
+ border: none;
+ margin-bottom: 1em;
+  border-radius: 5px;
+  margin-right: 1em;
+}
+
+.top-text {
+  color: rgb(136, 131, 131);
+  font-weight: bold;
+}
+
+.bottom-text {
+  color: blue;
+}
